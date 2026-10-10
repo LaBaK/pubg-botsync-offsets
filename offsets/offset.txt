@@ -24,11 +24,11 @@ constexpr uint64_t DecryptNameIndexSval = 0x4;
 constexpr uint64_t DecryptNameIndexDval = 0x1C;
 
 constexpr uint64_t ViewTarget = 0x1090;
-constexpr uint64_t CameraCacheLocation = 0x1BC8;
-constexpr uint64_t CameraCacheRotation = 0x1BB8;
-constexpr uint64_t CameraCacheFOV = 0x1BF0;
+constexpr uint64_t CameraCacheLocation = 0x474;
+constexpr uint64_t CameraCacheRotation = 0x464;
+constexpr uint64_t CameraCacheFOV = 0x470;
 
-constexpr uint64_t LastTeamNum = 0x15C0;
+constexpr uint64_t LastTeamNum = 0x1E10;
 constexpr uint64_t TeamNumber = 0xB80;
 
 constexpr uint64_t MyHUD = 0x4C8;
@@ -229,7 +229,7 @@ constexpr uint64_t VehicleFuelMax = 0x2FC;
 constexpr uint64_t VehicleHealth = 0x2F0;
 constexpr uint64_t VehicleHealthMax = 0x2F4;
 
-constexpr uint64_t PhysxSDK = 0x12C520C8;
+constexpr uint64_t PhysxSDK = 0x123BE088;
 constexpr uint64_t PhysicsScene = 0xAC8;
 constexpr uint64_t mPhysXScene = 0xD0;
 constexpr uint64_t rigid_dynamics = 0x3F98;
