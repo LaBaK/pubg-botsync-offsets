@@ -295,3 +295,4 @@ bShowMouseCursor=0x658
 ping=0x450
 AttachedStaticComponentMap=0xC08
 AttachedStaticComponentMapMode=0x2
+ControllerPlayerState=0x440
