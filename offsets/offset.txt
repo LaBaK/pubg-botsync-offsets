@@ -3,6 +3,7 @@ AccountId=0x560
 AcknowledgedPawn=0x4A8
 Actors=0x210
 AimOffsets=0x1B50
+AttachedStaticComponentMap = 0x1508
 AimReadSchema=0x1
 Alignment=0x20
 AnimScriptInstance=0xE20
