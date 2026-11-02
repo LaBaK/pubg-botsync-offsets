@@ -1,0 +1,7 @@
+#include <cstdint>
+
+uint32_t DecryptCIndex(uint32_t value)
+{
+    const uint32_t xored = value ^ 0x6CBADE70U;
+    return (((xored << 10) & 0xFFFF0000U)) ^ ((xored >> 6) | (xored << 26)) ^ 0x60E7F8CDU;
+}
