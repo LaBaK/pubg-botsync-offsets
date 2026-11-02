@@ -1,0 +1,44 @@
+{
+  "status": "validated_current_consumer_table",
+  "capture_date": "2026-11-02",
+  "pe_timestamp": "0x6AE2D98A",
+  "size_of_image": "0x1B1B7000",
+  "runtime_entries": 265,
+  "offset_sha256": "d6ed77b03c8a2422758420918efd4849eb61f2a9cc49ef9ad00cbefee9ec6b48",
+  "required_keys_missing": {
+    "NullPointer": [],
+    "BOTSyncGreen": [],
+    "BOTSyncCurrentAimSchema": []
+  },
+  "required_key_counts": {
+    "NullPointer": 145,
+    "BOTSyncGreen": 174,
+    "BOTSyncCurrentAimSchema": 60
+  },
+  "active_literal_reads_missing": [],
+  "historical_reference_names_omitted": [
+    "DecryptNameIndexDval",
+    "SPOOFCALL",
+    "LineTraceSingle",
+    "HOOK",
+    "HOOK_TWO",
+    "mPhysXScene",
+    "rigid_dynamics",
+    "Unreal_Engine"
+  ],
+  "inactive_unprovided": [
+    "DormantCharacterClientList: only consumer thread creation is commented out in current Green Hack.h"
+  ],
+  "validation": [
+    "PASS: published table accepted (265 keys), timestamp=0x6ae2d98a",
+    "PASS actual Green loader and current aim schema: 265 keys; PE 0x6ae2d98a",
+    "PASS attachment asset/socket transforms, relative height, nonfinite transform and corrupt-map rejection\r\nPASS current aim schema, module identity, gravity source, linked receiver/context, invalid values and concurrent array changes",
+    "PASS: generated CIndex formula matches captured player-name index"
+  ],
+  "native_evidence_review": "Current SDK and native instructions independently reviewed; no historical numeric fallback imported.",
+  "limits": "Static validation and previous bounded live observations do not establish live behavior of every feature or driver stability. No driver changes or loading performed for publication.",
+  "previous_active_pe_timestamp": "0x6ad0fabd",
+  "previous_active_sha256": "d3f38a4e63a36d204a765fa61aef44e8df7c9f9981b9cc7934743c4ff201907e",
+  "source_code_included": false,
+  "credentials_included": false
+}
